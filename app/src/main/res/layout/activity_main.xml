@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:textSize="14sp"
                 android:text="12 items"
-                android:textColor="@color/black"/>
+                android:textColor="@android:color/darker_gray"/>
             <ImageView
                 android:layout_alignParentRight="true"
                 android:src="@mipmap/ic_launcher"
@@ -51,13 +51,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -65,9 +68,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -78,13 +81,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -92,9 +98,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -105,13 +111,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -119,9 +128,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -132,13 +141,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -146,9 +158,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -159,13 +171,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -173,9 +188,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -186,13 +201,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -200,9 +218,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -213,13 +231,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -227,9 +248,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -240,13 +261,16 @@
                 android:layout_rowWeight="1"
                 app:cardElevation="6dp"
                 app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
+                android:layout_margin="12dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:clickable="true">
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:padding="16dp"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:background="@drawable/cardbg">
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
@@ -254,63 +278,9 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Clender"
+                        android:text="Cards"
                         android:textSize="18sp"
-                        android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Clender"
-                        android:textSize="18sp"
-                        android:textColor="#6f6f6f"
-                        android:layout_marginTop="12dp"/>
-                </LinearLayout>
-            </androidx.cardview.widget.CardView>
-            <androidx.cardview.widget.CardView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_columnWeight="1"
-                android:layout_rowWeight="1"
-                app:cardElevation="6dp"
-                app:cardCornerRadius="12dp"
-                android:layout_margin="12dp">
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:gravity="center"
-                    android:padding="16dp"
-                    android:orientation="vertical">
-                    <ImageView
-                        android:layout_width="80dp"
-                        android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Clender"
-                        android:textSize="18sp"
-                        android:textColor="#6f6f6f"
+                        android:textColor="@color/white"
                         android:layout_marginTop="12dp"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
