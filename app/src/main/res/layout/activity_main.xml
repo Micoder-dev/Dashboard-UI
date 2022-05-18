@@ -31,11 +31,14 @@
                 android:textSize="14sp"
                 android:text="12 items"
                 android:textColor="@android:color/darker_gray"/>
-            <ImageView
-                android:layout_alignParentRight="true"
-                android:src="@mipmap/ic_launcher"
+
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="62dp"
-                android:layout_height="62dp"/>
+                android:layout_height="62dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/avatar"
+                app:civ_border_color="@android:color/darker_gray"
+                app:civ_border_width="1dp" />
         </RelativeLayout>
         <GridLayout
             android:alignmentMode="alignMargins"
@@ -61,10 +64,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -91,10 +96,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -121,10 +128,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -151,10 +160,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -181,10 +192,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -211,10 +224,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -241,10 +256,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -271,10 +288,12 @@
                     android:padding="16dp"
                     android:orientation="vertical"
                     android:background="@drawable/cardbg">
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@mipmap/ic_launcher"/>
+                        android:src="@drawable/home_logo"
+                        app:civ_border_width="2dp"
+                        app:civ_border_color="#03A9F4"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
